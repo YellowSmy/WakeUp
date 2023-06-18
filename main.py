@@ -32,7 +32,7 @@ while True :
             if (passed_time == 5): 
                 print('wake up!') #console
 
-                webbrowser.open_new_tab("C:/Users/User/Desktop/WakeUP_openCV/templates/index.html") #web
+                webbrowser.open_new_tab("./templates/index.html") #web
                 #_vive(); # arduino
                 time.sleep(2)
                 passed_time = 0 #reset & loop
